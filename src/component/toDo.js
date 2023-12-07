@@ -30,11 +30,13 @@ const TodoApp = () => {
                   type="text"
                   value={empName}
                   onChange={(e) => setEmpName(e.target.value)}
+                  placeholder='Enter Name'
               />
               <TextField
                   type="text"
                   value={department}
                   onChange={(e) => setDepartment(e.target.value)}
+                  placeholder='Enter Department'
               />
               <Button variant='contained' onClick={addTodo}>Add Todo</Button>
           </Stack>
