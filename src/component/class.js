@@ -46,3 +46,4 @@ class CounterClass extends React.Component {
 }
 
 export default CounterClass;
+
